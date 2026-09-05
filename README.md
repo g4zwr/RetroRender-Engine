@@ -1,6 +1,6 @@
 # RetroRender-Engine
 
-**A Custom Software Raytracing Engine For Roblox**
+**A Custom Realtime Raytracing Engine For Roblox**
 
 [![Luau](https://img.shields.io/badge/Language-Luau-00000?style=for-the-badge&logo=lua&logoColor=white)](https://luau.org) [![Platform](https://img.shields.io/badge/Platform-Roblox-000000?style=for-the-badge&logo=roblox&logoColor=white)](https://www.roblox.com) [![Rendering](https://img.shields.io/badge/Rendering-Raycast_Based-000000?style=for-the-badge)](#system-architecture) [![License](https://img.shields.io/badge/License-MIT-000000?style=for-the-badge)](#license)
 
@@ -44,7 +44,7 @@ That's it — the moment it loads, your Camera's viewport is replaced with a ful
 
 Instead of relying on Roblox's built-in renderer, it builds its own screen out of a grid of `Frame` instances, then fires a `Workspace:Raycast()` for every pixel each frame, computing sky, sun, shadows, material texture, specular highlights, and reflections entirely in Luau.
 
-It was **inspired by [RetroRaster](https://github.com/ethanthegrand10) by ethanthegrand10**, reimagined here as its own engine with a tiled/interlaced render pipeline for performance, procedural material shading, and dynamic sky/cloud/sun simulation.
+It was **inspired by [RetroRaster](https://ethanthegrand.itch.io/retroraster) by ethanthegrand**, reimagined here as its own engine with a tiled/interlaced render pipeline for performance, procedural material shading, and dynamic sky/cloud/sun simulation.
 
 ---
 
@@ -142,7 +142,7 @@ Lower `PIXEL_SIZE` for a sharper (but heavier) image, or raise `NUM_PHASES` / `T
 
 ## Credits
 
-Inspired by **[RetroRaster](https://github.com/ethanthegrand10)** by **ethanthegrand10**.
+Inspired by **[RetroRaster](https://ethanthegrand.itch.io/retroraster)** by **ethanthegrand**.
 
 ---
 
