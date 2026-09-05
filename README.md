@@ -1,6 +1,6 @@
 # RetroRender-Engine
 
-**A Custom Realtime Raytracing Engine For Roblox**
+**A Custom Realtime Raytracing Script For Roblox**
 
 [![Luau](https://img.shields.io/badge/Language-Luau-00000?style=for-the-badge&logo=lua&logoColor=white)](https://luau.org) [![Platform](https://img.shields.io/badge/Platform-Roblox-000000?style=for-the-badge&logo=roblox&logoColor=white)](https://www.roblox.com) [![Rendering](https://img.shields.io/badge/Rendering-Raycast_Based-000000?style=for-the-badge)](#system-architecture) [![License](https://img.shields.io/badge/License-MIT-000000?style=for-the-badge)](#license)
 
